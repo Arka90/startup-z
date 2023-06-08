@@ -1,0 +1,68 @@
+@import "../../variables.scss";
+@import "../../common_styles.scss";
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: right;
+  padding: 2.5rem;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  letter-spacing: 0.2rem;
+
+  .logo img {
+    width: 6rem;
+  }
+  .nav-links_and_btns {
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-links {
+      width: 60%;
+    }
+  }
+}
+
+.link {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  &:hover {
+    color: $color-primary;
+    transition: all 0.3s;
+  }
+
+  &:not(:last-child) {
+    margin-right: 3rem;
+  }
+}
+
+.btn-nav {
+  font-size: 1.5rem;
+  padding: 0.8rem 2.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.auth_add {
+  display: flex;
+  .link:link,
+  .link:visited {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.icons-header {
+  font-size: 2rem;
+  margin-right: 0.7rem;
+}

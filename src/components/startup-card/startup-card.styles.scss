@@ -1,0 +1,26 @@
+.card-st {
+  display: flex;
+  align-items: flex-start;
+
+  width: 30rem;
+
+  .index {
+    font-size: 5rem;
+    color: #aaa;
+    margin-right: 2rem;
+  }
+
+  .content {
+    font-size: 1.5rem;
+  }
+
+  .card-st-heading {
+    font-weight: 600;
+    margin-bottom: 1.3rem;
+    font-size: 2.1rem;
+  }
+
+  .card-st-para {
+    line-height: 1.3;
+  }
+}

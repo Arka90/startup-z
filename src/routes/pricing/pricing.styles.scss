@@ -1,0 +1,60 @@
+@import "../../variables.scss";
+
+.price-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.price-box {
+  padding: 2rem;
+  border: 0.1rem solid #000;
+  width: 30rem;
+
+  .plan {
+    font-size: 2rem;
+  }
+
+  .price {
+    font-size: 4rem;
+    color: $color-primary;
+  }
+  .features {
+    list-style: none;
+    font-size: 1.6rem;
+    line-height: 1.9;
+    margin-bottom: 2rem;
+    li {
+      display: flex;
+      align-items: center;
+    }
+    .icon-green {
+      color: green;
+      margin-right: 1.2rem;
+    }
+  }
+
+  .btn-subscribe {
+    padding: 1.5rem 9rem;
+
+    margin: 3rem auto;
+  }
+}
+
+.price-box-pink {
+  background-color: $color-primary;
+  color: #fff;
+
+  .plan-pink,
+  .price-pink {
+    color: #fff;
+  }
+
+  .icon-white {
+    margin-right: 1.2rem;
+  }
+
+  .btn-subscribe-white {
+    background-color: #fff;
+    color: $color-primary;
+  }
+}

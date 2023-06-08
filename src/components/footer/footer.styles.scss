@@ -1,0 +1,90 @@
+@import "../../variables.scss";
+
+.footer {
+  background-image: url(../../../public/assets/background-thedir-cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2.5rem;
+}
+
+.row-first {
+  width: 80%;
+  margin: 7rem auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.footer-logo {
+  img {
+    width: 9.5rem;
+  }
+}
+
+.footer-logo {
+  margin-bottom: 3rem;
+}
+
+.footer-text:link,
+.footer-text:visited {
+  font-size: 1.5rem;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  transition: all 0.5s;
+}
+
+.footer-text-normal {
+  font-size: 1.5rem;
+
+  color: #333;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.footer-text:hover {
+  color: $color-primary;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2.8rem;
+}
+
+.row-second {
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.socials {
+  font-size: 2rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .icon {
+    transition: all 0.5s;
+  }
+
+  .icon:hover {
+    color: $color-primary;
+  }
+}
+
+.copyright {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 300;
+  letter-spacing: 0.02rem;
+}
+
+.bold-txt-hover:hover {
+  color: $color-primary;
+  cursor: pointer;
+}

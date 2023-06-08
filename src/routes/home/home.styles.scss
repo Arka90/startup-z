@@ -1,0 +1,109 @@
+@import "../../animation.scss";
+
+.section {
+  width: 80%;
+  margin: 7rem auto;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+.section-hero {
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(#fff, 0.4), rgba(#fff, 1)),
+    url(../../../public/assets/banner.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  line-height: 1.2;
+  width: 50%;
+}
+
+.heading {
+  font-size: 8rem;
+  font-weight: 300;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: 300;
+  color: #8e8e8e;
+}
+
+.bold-txt {
+  font-weight: 900;
+}
+
+.btn-search {
+  font-size: 2rem;
+  padding: 3rem 3.2rem;
+  margin-left: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.move-in-left {
+  animation-name: moveInLeft;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+}
+.move-in-right {
+  animation-name: moveInRight;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+}
+
+.search-box {
+  display: flex;
+  align-items: flex-end;
+  font-size: 1.8rem;
+  margin-top: 6rem;
+  animation-name: moveInBottom;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-out;
+}
+
+.input-wrapper {
+  background-color: #fff;
+  padding: 2rem 1.5rem;
+  width: 80%;
+  p {
+    margin-bottom: 0.8rem;
+  }
+}
+
+.search-input {
+  font-size: 1.4rem;
+  border: none;
+  width: 60%;
+  outline: #fff;
+}
+
+.section-category {
+  overflow: hidden;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 4.8rem;
+}
+
+.section-bg {
+  background-image: url(../../../public/assets/background-thedir-cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2.5rem;
+}

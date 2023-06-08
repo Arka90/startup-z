@@ -1,0 +1,73 @@
+@import "./variables.scss";
+
+.btn {
+  background-color: $color-primary;
+  border: none;
+  color: white;
+  font-weight: 600;
+
+  &:hover {
+    background-color: darken($color-primary, $amount: 10%);
+  }
+}
+
+.heading-section {
+  font-size: 2.9rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.08rem;
+  margin-bottom: 1.8rem;
+}
+
+.heading-section-big {
+  font-size: 4rem;
+  text-align: left;
+}
+
+.section-pages {
+  width: 80%;
+  margin: 15rem auto 8rem auto;
+}
+
+.section-page-para {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #777;
+  line-height: 1.6;
+  letter-spacing: 0.025;
+  margin-bottom: 3rem;
+}
+
+.login-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.input {
+  font-size: 1.8rem;
+  text-align: left;
+  margin-bottom: 2rem;
+  width: 100%;
+
+  .label {
+    margin-bottom: 0.8rem;
+  }
+
+  .mandate {
+    color: red;
+  }
+
+  .from-input {
+    font-size: 1.8rem;
+    padding: 1.2rem;
+    width: 100%;
+  }
+}
+
+.btn-action {
+  font-size: 2.2rem;
+  padding: 1.3rem 4rem;
+  width: 100%;
+  margin-top: 2rem;
+}

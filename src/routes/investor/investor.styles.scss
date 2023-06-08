@@ -1,0 +1,16 @@
+.investor-list {
+  list-style: none;
+  font-size: 1.9rem;
+  font-weight: 300;
+  margin-bottom: 6rem;
+  .list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+    .point {
+      color: green;
+      margin-right: 2rem;
+    }
+  }
+}

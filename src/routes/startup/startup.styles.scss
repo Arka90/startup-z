@@ -1,0 +1,32 @@
+@import "../../animation.scss";
+
+.figures {
+  display: flex;
+
+  padding: 2.8rem;
+  color: #444;
+  column-gap: 8rem;
+}
+
+.numbers {
+  font-size: 3rem;
+}
+
+.text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.line {
+  border: 0.1px solid #999;
+}
+
+.start-up-card-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 2rem;
+  row-gap: 4rem;
+  animation-name: moveInTop;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+}
