@@ -1,4 +1,4 @@
-// import Slide from "../../components/slider/slider.component";
+import Slider from "../../components/slider/slider.component";
 import GenericCard from "../../components/generic-cards/generic_cards.component";
 import { MdSearch } from "react-icons/md";
 import "./home.styles.scss";
@@ -30,11 +30,13 @@ function Home() {
         </div>
       </section>
 
-      <section className="section section-category">
+      {/* <section className="section section-category">
         <p className="section-heading">
           Explore By <span className="bold-txt">Category</span>
         </p>
-      </section>
+
+        <Slider />
+      </section> */}
 
       <section className="section">
         <p className="section-heading">

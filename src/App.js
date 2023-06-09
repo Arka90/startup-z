@@ -14,7 +14,7 @@ import Privacy from "./routes/privacy/privacy.component";
 import Terms from "./routes/terms/terms.comopent";
 import Cancellation from "./routes/cancellation/cancellation.component";
 import Shipping from "./routes/shipping/shipping.component";
-
+import Search from "./components/search/search.component";
 import FAQ from "./routes/faq/faq.component";
 
 import "./App.scss";
@@ -40,6 +40,7 @@ function App() {
         <Route path="shipping" element={<Shipping />} />
         <Route path="guidelines" element={<Community />} />
         <Route path="faq" element={<FAQ />} />
+        <Route path="search" element={<Search />} />
       </Routes>
       <Footer />
     </div>

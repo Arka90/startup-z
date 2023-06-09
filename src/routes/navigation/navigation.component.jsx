@@ -6,9 +6,13 @@ import "./navigation.styles.scss";
 function Navigation() {
   const navigate = useNavigate();
 
+  const goToHome = () => {
+    navigate("/");
+  };
+
   return (
     <div className="nav-container">
-      <div className="logo">
+      <div className="logo" onClick={goToHome}>
         <img src="assets/white-logo.png" alt="logo" />
       </div>
       <div className="nav-links_and_btns">

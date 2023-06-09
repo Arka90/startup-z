@@ -58,7 +58,7 @@
   width: 80%;
   margin: 2rem auto;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto;
 }
 
 .socials {
@@ -87,4 +87,16 @@
 .bold-txt-hover:hover {
   color: $color-primary;
   cursor: pointer;
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .row-first {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: $breakpoint-mobile-small) {
+  .row-first {
+    grid-template-columns: auto;
+  }
 }

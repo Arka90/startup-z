@@ -1,5 +1,5 @@
 @import "../../animation.scss";
-
+@import "../../variables.scss";
 .section {
   width: 80%;
   margin: 7rem auto;
@@ -106,4 +106,45 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2.5rem;
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .section {
+    width: 100%;
+    margin-left: 2.5rem;
+  }
+  .search-box {
+    flex-direction: column;
+  }
+  .input-wrapper {
+    width: 100%;
+  }
+
+  .hero-content {
+    width: 80%;
+  }
+
+  .btn-search {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: $breakpoint-tablet-small) {
+  .card-container {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .card-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: $breakpoint-mobile-small) {
+  .card-container {
+    grid-template-columns: auto;
+  }
 }
