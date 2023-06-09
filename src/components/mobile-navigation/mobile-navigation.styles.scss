@@ -1,0 +1,20 @@
+.logo {
+  img {
+    width: 8rem;
+  }
+}
+.mobile-nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  justify-content: space-between;
+  z-index: 1;
+
+  padding: 2rem;
+}
+
+.searcch-icon {
+  font-size: 4rem;
+}
